@@ -114,7 +114,7 @@ return UrlFetchApp.fetch(
     method             : 'post',
     contentType        : 'application/json',
     headers            : {
-      Authorization : 'Bearer ' + 'xoxp-1262639085254-2000788509024-4330188717364-b2cb8c702f9d2edde83f94a99a8ea2dc'
+      Authorization : 'Bearer ' + 'COPY_AND_PASTE_YOUR_OAUTH_ACCESS_TOKEN_HERE'
     },
     payload            : JSON.stringify(payload),
     muteHttpExceptions : true,
